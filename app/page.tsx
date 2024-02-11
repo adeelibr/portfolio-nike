@@ -1,4 +1,4 @@
-import ThemeToggle from "@/components/ThemeToggle";
+import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import PopularProducts from "@/components/PopularProducts";
 import SuperQuality from "@/components/SuperQuality";
@@ -11,8 +11,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="relative flex flex-col min-h-screen">
-      Nav
-      <ThemeToggle />
+      <Nav />
       <section className="xl:padding-l 2xl:padding-r padding-b">
         <Hero />
       </section>
