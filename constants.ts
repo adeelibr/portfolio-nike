@@ -41,15 +41,38 @@ export const STATISTICS = [
 
 export const SHOES = [
   {
-      thumbnail: IMAGES.thumbnailShoe1,
-      bigShoe: IMAGES.bigShoe1,
+    thumbnail: IMAGES.thumbnailShoe1,
+    bigShoe: IMAGES.bigShoe1,
   },
   {
-      thumbnail: IMAGES.thumbnailShoe2,
-      bigShoe: IMAGES.bigShoe2,
+    thumbnail: IMAGES.thumbnailShoe2,
+    bigShoe: IMAGES.bigShoe2,
   },
   {
-      thumbnail: IMAGES.thumbnailShoe3,
-      bigShoe: IMAGES.bigShoe3,
+    thumbnail: IMAGES.thumbnailShoe3,
+    bigShoe: IMAGES.bigShoe3,
+  },
+];
+
+export const PRODUCTS = [
+  {
+    imgURL: IMAGES.shoe4,
+    name: "Nike Air Jordan-01",
+    price: "$200.20",
+  },
+  {
+    imgURL: IMAGES.shoe5,
+    name: "Nike Air Jordan-10",
+    price: "$210.20",
+  },
+  {
+    imgURL: IMAGES.shoe6,
+    name: "Nike Air Jordan-100",
+    price: "$220.20",
+  },
+  {
+    imgURL: IMAGES.shoe7,
+    name: "Nike Air Jordan-001",
+    price: "$230.20",
   },
 ];
