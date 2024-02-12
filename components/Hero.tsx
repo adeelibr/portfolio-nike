@@ -83,7 +83,7 @@ function Hero() {
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-orange-400">
-        <img
+        <Image
           src={bigShoeImg}
           alt="shoe collection"
           width={610}
