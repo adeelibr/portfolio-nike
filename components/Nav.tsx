@@ -1,8 +1,10 @@
 import * as React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Menu } from "lucide-react";
 
+import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle";
 import { IMAGES, NAV_LINKS } from "@/constants";
 
@@ -10,7 +12,7 @@ function Nav() {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-w-7xl mx-auto">
-        <a href="/">
+        <Link href="/">
           <Image
             src={IMAGES.logo}
             alt="logo"
@@ -18,16 +20,16 @@ function Nav() {
             height={29}
             className="m-0 w-[129px] h-[29px]"
           />
-        </a>
+        </Link>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {NAV_LINKS.map((link) => (
             <li key={link.label}>
-              <a
+              <Link
                 href={link.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
+                className="leading-normal text-lg text-slate-gray"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
           <li>
@@ -35,13 +37,15 @@ function Nav() {
           </li>
         </ul>
 
-        <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden 2xl:mr-24">
-          <a href="/">Sign in</a>
+        <div className="flex gap-2 text-lg leading-normal font-medium max-lg:hidden 2xl:mr-24">
+          <Link href="/">Sign in</Link>
           <span>/</span>
-          <a href="/">Explore now</a>
+          <Link href="/">Explore now</Link>
         </div>
         <div className="hidden max-lg:block">
-          <Menu className="h-5 w-5" />
+          <Button variant="ghost" size="icon">
+            <Menu className="h-5 w-5" />
+          </Button>
         </div>
       </nav>
     </header>
