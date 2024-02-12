@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat as FontSans } from "next/font/google";
+import { Palanquin as FontSans } from "next/font/google";
 import "./globals.css";
 
 import ThemeProvider from "@/components/ThemeProvider";
@@ -7,8 +7,10 @@ import ThemeProvider from "@/components/ThemeProvider";
 import { cn } from "@/lib/utils";
 
 const fontSans = FontSans({
-  subsets: ["latin"],
+  subsets: ["devanagari", 'latin'],
   variable: "--font-sans",
+  weight: "400"
+
 });
 
 export const metadata: Metadata = {
