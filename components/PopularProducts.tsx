@@ -16,7 +16,7 @@ function PopularProductCard({ imgURL, name, price }: any) {
         height={282}
       />
       <div className="mt-8 flex justify-start items-center gap-2.5">
-        <Star className="h-4 w-4" />
+        <Star className="h-5 w-5 text-orange-500" />
         <p className="text-xl leading-normal text-slate-gray">(4.5)</p>
       </div>
       <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">
