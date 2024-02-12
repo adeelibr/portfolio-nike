@@ -7,7 +7,7 @@ function getNavHrefByLabel(label: NavLinkLabel): string {
   const link = NAV_LINKS.find(
     (link) => link.label.toLowerCase() === label.toLowerCase()
   );
-  return link?.href as string;
+  return link?.href.replace('#', '') as string;
 }
 
 export default getNavHrefByLabel;
