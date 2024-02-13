@@ -33,6 +33,12 @@ export const IMAGES = {
   offer: "/images/offer.svg",
 };
 
+export const ICONS = {
+  truck: "/icons/truck-fast.svg",
+  support: "/icons/support.svg",
+  shield: "/icons/shield-tick.svg",
+};
+
 export const STATISTICS = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
@@ -74,5 +80,24 @@ export const PRODUCTS = [
     imgURL: IMAGES.shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
+  },
+];
+
+export const SERVICES = [
+  {
+    imgURL: ICONS.truck,
+    label: "Free shipping",
+    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+  },
+  {
+    imgURL: ICONS.shield,
+    label: "Secure Payment",
+    subtext:
+      "Experience worry-free transactions with our secure payment options.",
+  },
+  {
+    imgURL: ICONS.support,
+    label: "Love to help you",
+    subtext: "Our dedicated team is here to assist you every step of the way.",
   },
 ];
