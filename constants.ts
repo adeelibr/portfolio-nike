@@ -31,6 +31,12 @@ export const IMAGES = {
   collectionBackground: "/images/collection-background.svg",
   // misc
   offer: "/images/offer.svg",
+  // social media
+  facebook: "/icons/facebook.svg",
+  twitter: "/icons/twitter.svg",
+  instagram: "/icons/instagram.svg",
+  // footer related
+  copyrightSign: "/icons/copyright-sign.svg",
 };
 
 export const ICONS = {
@@ -116,5 +122,42 @@ export const REVIEWS = [
     rating: 4.5,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+  },
+];
+
+export const SOCIAL_MEDIA = [
+  { src: IMAGES.facebook, alt: "facebook logo" },
+  { src: IMAGES.twitter, alt: "twitter logo" },
+  { src: IMAGES.instagram, alt: "instagram logo" },
+];
+
+export const FOOTER_LINKS = [
+  {
+    title: "Products",
+    links: [
+      { name: "Air Force 1", link: "/" },
+      { name: "Air Max 1", link: "/" },
+      { name: "Air Jordan 1", link: "/" },
+      { name: "Air Force 2", link: "/" },
+      { name: "Nike Waffle Racer", link: "/" },
+      { name: "Nike Cortez", link: "/" },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      { name: "About us", link: "/" },
+      { name: "FAQs", link: "/" },
+      { name: "How it works", link: "/" },
+      { name: "Privacy policy", link: "/" },
+      { name: "Payment policy", link: "/" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [
+      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "+92111222334", link: "tel:+92111222334" },
+    ],
   },
 ];

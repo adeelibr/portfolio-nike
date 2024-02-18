@@ -33,7 +33,7 @@ export default function Home() {
       <section className="padding">
         <Subscribe />
       </section>
-      <section className="bg-black padding-x padding-t pb-8">
+      <section className="bg-orange-500 dark:bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
     </main>
