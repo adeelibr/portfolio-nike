@@ -55,7 +55,7 @@ function Hero() {
         </p>
 
         <h1 className="mt-10 text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="xl:bg-white xl:dark:bg-orange-400 xl:whitespace-nowrap relative z-10 pr-10">
+          <span className="xl:bg-white xl:dark:bg-orange-500 xl:whitespace-nowrap relative z-10 pr-10">
             The New Arrival
           </span>
           <br />
@@ -81,7 +81,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-orange-400">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-orange-500">
         <Image
           src={bigShoeImg}
           alt="shoe collection"

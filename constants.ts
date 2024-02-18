@@ -19,7 +19,7 @@ export const IMAGES = {
   thumbnailShoe3: "/images/thumbnail-shoe3.svg",
   // customers list
   customer1: "/images/customer1.jpeg",
-  customer2: "/images/customer2.jpeg",
+  customer2: "/images/customer2.svg",
   // shoes lists
   shoe4: "/images/shoe4.svg",
   shoe5: "/images/shoe5.svg",
@@ -99,5 +99,22 @@ export const SERVICES = [
     imgURL: ICONS.support,
     label: "Love to help you",
     subtext: "Our dedicated team is here to assist you every step of the way.",
+  },
+];
+
+export const REVIEWS = [
+  {
+    imgURL: IMAGES.customer1,
+    customerName: "Morich Brown",
+    rating: 4.5,
+    feedback:
+      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+  },
+  {
+    imgURL: IMAGES.customer2,
+    customerName: "Lota Mongeskar",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
 ];

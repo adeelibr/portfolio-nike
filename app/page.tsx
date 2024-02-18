@@ -27,7 +27,7 @@ export default function Home() {
       <section className="padding">
         <SpecialOffer />
       </section>
-      <section className="bg-blue-300 padding">
+      <section className="bg-orange-500 padding">
         <CustomerReviews />
       </section>
       <section className="padding">
