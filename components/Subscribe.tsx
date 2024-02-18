@@ -1,7 +1,26 @@
 import * as React from "react";
 
+import { Button } from "./ui/button";
+import getNavHrefByLabel from "@/lib/getNavHrefByLabel";
+
 function Subscribe() {
-  return <div>Subscribe</div>;
+  return (
+    <section
+      id={getNavHrefByLabel("Contact Us")}
+      className="mx-auto max-w-7xl flex justify-between items-center max-lg:flex-col gap-10"
+    >
+      <h3 className="text-4xl leading-[68px] lg:max-w-md font-bold">
+        Sign Up for
+        <span className="text-coral-red"> Updates </span>& Newsletter
+      </h3>
+      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 sm:border sm:border-orange-500">
+        <input type="text" placeholder="subscribe@nike.com" className="input" />
+        <div className="flex max-sm:justify-end items-center max-sm:w-full">
+          <Button className="w-full rounded-none">Sign Up</Button>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Subscribe;
